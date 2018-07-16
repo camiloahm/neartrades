@@ -1,6 +1,6 @@
 GET        /                       controllers.HomeController.index
 
-GET     /sqrt/:num     controllers.HomeController.sqrt(num:String)
+GET     /sqrt/:num     controllers.MathController.sqrt(num:String)
 
 ->         /v1/posts               v1.post.PostRouter
 
